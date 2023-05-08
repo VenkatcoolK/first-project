@@ -1,0 +1,35 @@
+Spring Tool Suite 4 
+
+Version: 4.6.2.RELEASE
+public class MainClass {
+	public static void main(String []ab) {
+		
+		COne c1 = new COne();
+		c1.count = 20;
+		System.out.println("C1 count:" + c1.count);
+		
+		COne c2 = new COne();
+		c2.count = 30;
+		System.out.println("C2 count:" + c2.count);
+		
+		COne c3 = new COne();
+		c3.count = 40;
+		System.out.println("C3 count:" + c3.count);
+		
+		Calculation c = new Calculation();
+		c.calalculateSUM(c1.count, c2.count, c3.count);
+		
+		//System.out.println("SUM");
+		//System.out.println(c1.count + c2.count + c3.count);
+	}
+}
+public class Calculation {
+	public void calalculateSUM(int a, int b, int c) {
+		int d = a + b + c;
+		System.out.println("SUM IS :" + d);
+	}
+}
+public class COne {
+	int count = 10;
+}
+*****************************************************************************************

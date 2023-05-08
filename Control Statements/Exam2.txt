@@ -1,0 +1,11 @@
+1. Print Hello 10 times in java with out Loop
+2. Print Hello 10 times in java with For Loop
+3. Print Hello 10 times in java with While Loop
+4. Print Hello 10 times in java with Do-While Loop
+
+5. Find out wheather student is Pass or Fail and find grade.
+	Take input as telugu, english, hindi marks.
+	If % is between 80 to 85 - Grader A
+	If % is between 70 to 80 - Grader B
+	If % is between 50 to 70 - Grader C
+	Other percentage is Grade D.
