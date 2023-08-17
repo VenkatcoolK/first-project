@@ -6,6 +6,7 @@ public class Test{
 		byte c = (byte) (a + b);
 		
 		System.out.println(" The c variable value after addition is : " + c);
+		System.out.println(" The c variable value after addition is : " + c);
 		
 		
 		
